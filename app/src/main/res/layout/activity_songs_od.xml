@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    tools:context=".SongsOD"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="MENU"
+        android:background="@color/colorBlack"
+        android:textColor="#FFFFFF"/>
+
+
+    <ListView
+
+        android:id="@+id/songlist"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/search"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tloradio"
+        android:layout_weight="1.00">
+
+    </ListView>
+
+
+    <Button
+        android:id="@+id/buttonPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Go to playlist"
+        android:background="@color/colorBlack"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>

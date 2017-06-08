@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Music_Player</string>
+    <string name="title_activity_user_area">UserArea</string>
+    <string name="stopBtn">Stop</string>
+    <string-array name="stacje">
+        <item> RADIO ESKA </item>
+        <item> RADIO WAWA </item>
+        <item> RADIO RMF FM </item>
+        <item> Eska Rock </item>
+        <item> Eska Rap </item>
+        <item> Eska Party </item>
+        <item> Eska Goraca 20 </item>
+        <item> Radio PLUS </item>
+        <item> Radio WAWA - Polski Rock </item>
+        <item> Radio WAWA - Party </item>
+        <item> RMF Maxxx </item>
+
+    </string-array>
+
+
+    <string-array name="stream">
+        <item> http://waw04.ic1.scdn.smcloud.net/t046-1.mp3 </item>
+        <item> http://waw04.ic1.scdn.smcloud.net/t050-1.mp3 </item>
+        <item> http://31.192.216.10:8000/rmf_fm </item>
+        <item> http://waw04.ic2.scdn.smcloud.net/t041-1.mp3 </item>
+        <item> http://waw04.ic1.scdn.smcloud.net/t002-1.mp3</item>
+        <item> http://waw04.ic1.scdn.smcloud.net/t005-1.mp3 </item>
+        <item> http://waw04.ic1.scdn.smcloud.net/t019-1.mp3 </item>
+        <item> http://waw04.ic1.scdn.smcloud.net/t086-1.mp3</item>
+        <item> http://waw04.ic2.scdn.smcloud.net/t028-1.mp3</item>
+        <item> http://waw04.ic2.scdn.smcloud.net/t036-1.mp3 </item>
+        <item> http://31.192.216.10:8000/rmf_maxxx </item>
+
+    </string-array>
+
+
+</resources>

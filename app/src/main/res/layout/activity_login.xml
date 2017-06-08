@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tloglowne"
+    android:gravity="center_vertical" >
+
+
+    <TextView
+        android:id="@+id/textViewUserLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="User login"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle" />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:hint="Enter your e-mail:"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:hint="Enter your password:"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in!" />
+
+
+
+    <TextView
+        android:textAlignment="center"
+        android:text="Don't have an account? Sign up here"
+        android:id="@+id/textViewSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
